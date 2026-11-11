@@ -1,0 +1,17 @@
+[package]
+# Ported from: Create Crafts & Additions 1.7.2 (MRH0/createaddition, MIT),
+# Minecraft Java 1.21.1 NeoForge. Local-only until the maintainer approves
+# publishing. The FE half: connectors, wires and the modular accumulator.
+name = "horizon-createaddition"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Create Crafts & Additions for Horizon: an FE connector/wire/accumulator network"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/createaddition/runtime.rs"
+
+[workspace]
+resolver = "2"

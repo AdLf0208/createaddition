@@ -1,0 +1,103 @@
+{
+  "template": "minecraft:iron_block",
+  "item": true,
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "occludes": false,
+    "sounds": "minecraft:copper_block"
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "down",
+        "up",
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    "mode": {
+      "type": "enum",
+      "values": [
+        "none",
+        "pull",
+        "push"
+      ]
+    }
+  },
+  "default_state": {
+    "facing": "north",
+    "mode": "none"
+  },
+  "shapes": {
+    "properties": [
+      "facing"
+    ],
+    "values": {
+      "down": [
+        [
+          0.375,
+          0.0,
+          0.375,
+          0.625,
+          0.25,
+          0.625
+        ]
+      ],
+      "up": [
+        [
+          0.375,
+          0.75,
+          0.375,
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "north": [
+        [
+          0.375,
+          0.375,
+          0.0,
+          0.625,
+          0.625,
+          0.25
+        ]
+      ],
+      "south": [
+        [
+          0.375,
+          0.375,
+          0.75,
+          0.625,
+          0.625,
+          1.0
+        ]
+      ],
+      "west": [
+        [
+          0.0,
+          0.375,
+          0.375,
+          0.25,
+          0.625,
+          0.625
+        ]
+      ],
+      "east": [
+        [
+          0.75,
+          0.375,
+          0.375,
+          1.0,
+          0.625,
+          0.625
+        ]
+      ]
+    }
+  }
+}

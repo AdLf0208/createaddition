@@ -1,0 +1,12 @@
+# The FE half of Create Crafts & Additions, carried from the ATM10 jar
+# (createaddition-1.7.2.jar, MIT). Local-only until the maintainer approves
+# publishing. The behaviour is the native half; this file is the blocks, items,
+# models, textures, loot and lang.
+id = "createaddition"
+name = "Create Crafts & Additions"
+version = "0.1.0"
+description = "Create's electric bridge, FE half: connectors, wires and the modular accumulator"
+authors = ["MRH0"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

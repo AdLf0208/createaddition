@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createaddition:block/modular_accumulator/block_single"
+    }
+  }
+}
